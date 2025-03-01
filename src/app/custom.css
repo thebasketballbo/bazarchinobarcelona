@@ -1,0 +1,123 @@
+.div-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.hero-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1vw 9vw;
+}
+
+.hero-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1vw 9vw;
+}
+
+.glow-text {
+    font-family: 'Rock Salt', cursive;
+    /* Choose a graffiti-style font */
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc;
+}
+
+.comm-2-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3vw 0vw;
+    margin-top: 30px;
+}
+
+.comm3-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2vw 0vw;
+    gap: 10px;
+}
+.comm30-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1vw;
+    gap: 5px;
+}
+
+.comm8-div {
+    display: grid;
+    grid-template-columns: .7fr 1fr;
+}
+
+.comm8-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 4vw 0vw;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 1174px) {
+    .div-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 1vw;
+    }
+
+    .hero-div {
+        display: flex;
+        flex-direction: column;
+        max-height: 500px;
+    }
+
+    .comm-2-div {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 3vw 0vw;
+        margin-top: 30px;
+    }
+    .comm3-div {
+        display: grid;
+        grid-template-columns:  1fr;
+        padding: 2vw 4vw;
+        gap: 10px;
+    }
+    .comm30-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1vw;
+        gap: 5px;
+    }
+    .comm8-div {
+        display: flex;
+        flex-direction: column;
+        padding: 1vw;
+    }
+    .comm8-2 {
+        display: flex;
+        flex-direction: column;
+        padding: 4vw 0vw;
+        gap: 10px;
+    }
+    .glow-text {
+        font-family: 'Rock Salt', cursive;
+        /* Choose a graffiti-style font */
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc;
+    }
+}
+
+
+@media only screen and (max-width: 797px) {
+    .div-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding: 1vw;
+    }
+
+}
