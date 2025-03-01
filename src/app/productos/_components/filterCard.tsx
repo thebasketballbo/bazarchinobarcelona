@@ -6,6 +6,7 @@ import { useSearchParams } from "next/navigation";
 import React from "react";
 
 const productCategoriesEnglish = {
+  "artilugios": "artilugios",
   "Accesorios para bicicletas": "Accesorios para bicicletas",
   "Camas":"Camas",
   "Electrodomésticos": "Electrodomésticos",
@@ -52,6 +53,7 @@ const productCategoriesEnglish = {
 };
 
 const productCategories = {
+  artilugios: "artilugios",
   Accesorios_para_bicicletas: "Accesorios para bicicletas",
   Camas:"Camas",
   Electrodomésticos: "Electrodomésticos",
